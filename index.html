@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento</title>
+</head>
+
+<body>
+    <header>
+        <h1>Orçamento</h1>
+    </header>
+    <form>
+        <label for="nome">Item:</label>
+        <input type="text" id="nome">
+
+        <label for="nome">Qtde:</label>
+        <input type="number" id="qtde">
+
+        <label for="nome">Preço (R$):</label>
+        <input type="number" step="0.010" id="preco">
+
+        <input type="submit" id="addItem" value="Adicionar">
+        <input type="reset" id="resetItem" value="Limpar">
+    </form>
+
+    <table id="tbOrcamento" border="2" align="center">
+        <thead>
+            <tr>
+                <th colspan="5">Itens Adicionados</th>
+            </tr>
+            <tr>
+
+                <th>Item</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+                <th colspan="2">Ação</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <!--
+        <tr>
+            <td>Nome do Item</td>
+            <td>5</td>
+            <td>R$ 0,00</td>
+            <td>Editar</td>
+            <td>Remover</td>
+        </tr>
+-->
+        <tfoot>
+            <tr>
+                <td colspan="5">
+                    <p>Total: R$ <span id="total">0,00</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <button id="baixar">Baixar Arquivo</button>
+                </td>
+            </tr>
+
+
+        </tfoot>
+    </table>
+
+    </main>
+    <footer></footer>
+</body>
+<script src="script.js"></script>
+
+</html>
