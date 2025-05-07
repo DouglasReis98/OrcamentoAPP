@@ -12,6 +12,7 @@ body {
 header h1 {
     color: #fff;
     text-align: center;
+    text-shadow: 3px 2px 15px rgb(8, 87, 1);
 }
 
 form {
@@ -47,18 +48,54 @@ form div {
 #botoes input {
     width: 50%;
     height: 30px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#addItem{
+    background-color: #1ba100;
+}
+
+#addItem:hover{
+    background-color: #2bff00;
+}
+
+#resetItem{
+    background-color: #d30000;
+}
+
+#resetItem:hover{
+    background-color: #ff0000;
 }
 
 #tbOrcamento {
     min-width: 60%;
+    border-collapse: collapse;
+    border: 2px solid #fff;
     color: #fff;
+    box-shadow: 0px 0px 20px #fff;
+    margin: 10px auto;
 }
 
 #tbOrcamento button{
     width: 100%;
     height: 30px;
+    cursor: pointer;
 }
+
 
 #tbOrcamento tfoot{
     text-align: center;
+}
+
+#baixar{
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: #008044;
+}
+
+#baixar:hover{
+    background-color: #00f181;
 }
