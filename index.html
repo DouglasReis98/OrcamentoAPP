@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Orçamento</title>
 </head>
 
@@ -12,17 +13,24 @@
         <h1>Orçamento</h1>
     </header>
     <form>
-        <label for="nome">Item:</label>
-        <input type="text" id="nome">
+        <h3 id="editItem">Editando Item: Item</h3>
+        <div>
+            <label for="item">Item:</label>
+            <input type="text" id="item">
+        </div>
 
-        <label for="nome">Qtde:</label>
-        <input type="number" id="qtde">
-
-        <label for="nome">Preço (R$):</label>
-        <input type="number" step="0.010" id="preco">
-
-        <input type="submit" id="addItem" value="Adicionar">
-        <input type="reset" id="resetItem" value="Limpar">
+        <div>
+            <label for="qtde">Qtde:</label>
+            <input type="number" min="0" id="qtde">
+        </div>
+        <div>
+            <label for="preco">Preço (R$):</label>
+            <input type="number" step="0.010" id="preco">
+        </div>
+        <div id="botoes">
+            <input type="submit" id="addItem" value="Adicionar">
+            <input type="reset" id="resetItem" value="Limpar">
+        </div>
     </form>
 
     <table id="tbOrcamento" border="2" align="center">
@@ -39,15 +47,7 @@
             </tr>
         </thead>
         <tbody></tbody>
-        <!--
-        <tr>
-            <td>Nome do Item</td>
-            <td>5</td>
-            <td>R$ 0,00</td>
-            <td>Editar</td>
-            <td>Remover</td>
-        </tr>
--->
+
         <tfoot>
             <tr>
                 <td colspan="5">
