@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body {
+    background: linear-gradient(rgb(12, 255, 12), rgb(8, 87, 1));
+    height: 100vh;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form div {
+    min-width: 60%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+#editItem{
+    width: 60%;
+    margin: 0 auto;
+    color: #007c15;
+}
+
+#item, #qtde, #preco {
+    width: 100%;
+    font-size: 25px;
+}
+
+#botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#botoes input {
+    width: 50%;
+    height: 30px;
+}
+
+#tbOrcamento {
+    min-width: 60%;
+    color: #fff;
+}
+
+#tbOrcamento button{
+    width: 100%;
+    height: 30px;
+}
+
+#tbOrcamento tfoot{
+    text-align: center;
+}
