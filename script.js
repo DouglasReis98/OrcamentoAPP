@@ -67,8 +67,8 @@ function exibirOrcamento() {
         <td>${e.Item}</td>
         <td>${e.Quantidade}</td>
         <td>R$ ${e.Preco}</td>
-        <td><button onClick={editar(${i})}>Editar</button></td>
-        <td><button onClick={remover(${i})}>Remover</button></td>
+        <td><button id="btnEditar" onClick={editar(${i})}>Editar</button></td>
+        <td><button id="btnRemover" onClick={remover(${i})}>Remover</button></td>
         `;
 
       total.innerHTML = arrItens

@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(rgb(12, 255, 12), rgb(8, 87, 1));
+    background: linear-gradient( rgb(8, 87, 1), rgb(12, 255, 12));
     height: 100vh;
 }
 
@@ -26,6 +26,11 @@ form div {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 500;
     margin: 0 auto;
+}
+
+form label{
+    color: #fff;
+    font-weight: bold;
 }
 
 #editItem{
@@ -61,12 +66,20 @@ form div {
     background-color: #2bff00;
 }
 
+#addItem:active{
+    background-color: #0e5500;
+}
+
 #resetItem{
     background-color: #d30000;
 }
 
 #resetItem:hover{
     background-color: #ff0000;
+}
+
+#resetItem:active{
+    background-color: #720000;
 }
 
 #tbOrcamento {
@@ -84,6 +97,35 @@ form div {
     cursor: pointer;
 }
 
+#btnEditar, #btnRemover {
+    color: #fff;
+    border: none;
+    
+}
+
+#btnEditar{
+    background-color: rgb(30, 163, 63);
+}
+
+#btnEditar:hover{
+    background-color: rgb(0, 121, 30);
+}
+
+#btnEditar:active{
+    background-color: rgb(0, 77, 19);
+}
+
+#btnRemover{
+    background-color: red;
+}
+
+#btnRemover:hover{
+    background-color: rgb(179, 0, 0);
+}
+
+#btnRemover:active{
+    background-color: rgb(124, 0, 0);
+}
 
 #tbOrcamento tfoot{
     text-align: center;
@@ -98,4 +140,8 @@ form div {
 
 #baixar:hover{
     background-color: #00f181;
+}
+
+#baixar:active{
+    background-color: #004625;
 }
