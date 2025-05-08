@@ -138,6 +138,10 @@ form label{
     font-size: 20px;
 }
 
+#total{
+    font-weight: bold;
+}
+
 #baixar{
     color: #fff;
     border: none;
