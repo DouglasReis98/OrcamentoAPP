@@ -107,15 +107,15 @@ form label{
 }
 
 #btnEditar{
-    background-color: rgb(30, 163, 63);
+    background-color: rgb(0, 195, 230);
 }
 
 #btnEditar:hover{
-    background-color: rgb(0, 121, 30);
+    background-color: rgb(0, 41, 223);
 }
 
 #btnEditar:active{
-    background-color: rgb(0, 77, 19);
+    background-color: rgb(0, 32, 90);
 }
 
 #btnRemover{
