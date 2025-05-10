@@ -132,8 +132,7 @@ const reset = () => {
 };
 
 btnBaixar.addEventListener("click", () => {
-  console.log(JSON.parse(localStorage.getItem("itensOrcamento")));
-  console.log("Total: R$ " + arrItens.reduce((acumulador, num) => acumulador + parseFloat(num.Preco), 0).toFixed(2))
+  alert("Esta função ainda não está disponível, mas será implementada futuramente!")
 });
 
 window.addEventListener("load", exibirOrcamento);
