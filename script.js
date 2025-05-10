@@ -93,7 +93,6 @@ const editar = (index) => {
   addItem.value = "Atualizar";
 
   showEditProjeto(index)
-  console.log("Editando Item: " + arrItens[index].Item)
 };
 
 const showEditProjeto = (index) => {
