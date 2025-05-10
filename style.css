@@ -61,6 +61,10 @@ form label{
     cursor: pointer;
 }
 
+tbody{
+    text-align: center;
+}
+
 #addItem{
     background-color: #20bd01;
 }
