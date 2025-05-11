@@ -53,6 +53,6 @@ btnBaixar.addEventListener("click", () => {
   const workbook = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(workbook, planilha, "Orçamento");
   
-  // Gera o arquivo xlsx
+  // Gera e baixa o arquivo do Excel (xlsx)
   XLSX.writeFile(workbook, "dados.xlsx", { compression: true });
 });
