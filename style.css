@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
 body {
@@ -61,10 +60,6 @@ form label{
     cursor: pointer;
 }
 
-tbody{
-    text-align: center;
-}
-
 #addItem{
     background-color: #20bd01;
 }
@@ -87,6 +82,10 @@ tbody{
 
 #resetItem:active{
     background-color: #720000;
+}
+
+tbody{
+    text-align: center;
 }
 
 #tbOrcamento {
