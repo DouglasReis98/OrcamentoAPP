@@ -4,7 +4,6 @@ const qtde = document.getElementById("qtde");
 const preco = document.getElementById("preco");
 const tbOrcamento = document.getElementById("tbOrcamento");
 const total = document.getElementById("total");
-const btnBaixar = document.getElementById("baixar");
 const addItem = document.getElementById("addItem")
 let arrItens = [];
 let editIndex = null;
@@ -129,9 +128,5 @@ const reset = () => {
   editIndex = null;
   addItem.value = "Adicionar";
 };
-
-btnBaixar.addEventListener("click", () => {
-  alert("Esta função ainda não está disponível, mas será implementada futuramente!")
-});
 
 window.addEventListener("load", exibirOrcamento);
