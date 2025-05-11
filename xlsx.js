@@ -11,6 +11,12 @@ btnBaixar.addEventListener("click", () => {
 
   const totalLinhas = arrItens.length + 2;
 
+  planilha['!cols'] = [
+        { wch: 20 }, // Produto
+        { wch: 25 }, // Quantidade
+        { wch: 15 }  // Preço
+      ];
+
   for (let i = 0; i < arrItens.length; i++) {
     const cell = `C${i + 2}`;
     if (planilha[cell]) {
