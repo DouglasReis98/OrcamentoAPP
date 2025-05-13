@@ -15,7 +15,7 @@ if (localStorage.getItem("itensOrcamento")) {
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  if (item.value != "" && qtde.value != NaN && preco != NaN) {
+  if (item.value != "" && qtde.value != NaN && preco.value != NaN) {
     if (editIndex === null) {
       const objItem = {
         Item: item.value,
